@@ -242,6 +242,11 @@ String currdir="";
     	if(bad) {
     		a.setStyle(" -fx-highlight-fill: lightgrey; -fx-highlight-text-fill: black; -fx-text-fill: red; ");
     	}
+	else
+    	{
+            a.setStyle(" -fx-highlight-fill: lightgrey; -fx-highlight-text-fill: black; -fx-text-fill: wheat; ");
+
+    	}
         a.setText(s);
     }
     public void msgAdd(String s, TextArea a)
